@@ -1,4 +1,29 @@
-html, body{
-    height:100%;
-    background:#303336;
+body, html {
+    height: 100%;
+  }
+
+.header-name {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.second-col li {
+    list-style: none;
+}
+
+.second-col li p {
+    margin-left: 10px;
+}
+
+.second-col .list-item-title {
+    margin-left: -10px;
+}
+
+.list-item-title:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
 }
