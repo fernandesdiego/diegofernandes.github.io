@@ -2,28 +2,52 @@ body, html {
     height: 100%;
   }
 
+.contact-ul {
+    list-style-type: none;    
+}
+
+.vl-2 {
+    width: 4px;
+    height: 100vh;
+    margin-left: 10px;
+    background-color: #ffc107;
+    display: block;
+}
+
+.vl-2:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: -8px;
+    background-color: #ffc107;
+    display: block;
+}
+
+#about {
+    font-size: small;
+}  
+#about li {    
+    display: list-item;
+    margin-left: -36px;  
+    list-style-image: url('../img/bullet.png');
+}
+
+#about li p {        
+    margin-top: -24px;
+    margin-left: 36px;
+}
+
 .header-name {
     font-size: 80px;
     font-weight: bold;
 }
 
-.second-col li {
-    list-style: none;
-}
-
-.second-col li p {
-    margin-left: 10px;
-}
-
-.second-col .list-item-title {
-    margin-left: -10px;
-}
-
-.list-item-title:before {
+/* .list-item-title:before {
     content: "";
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: red;
     display: inline-block;
-}
+} */
