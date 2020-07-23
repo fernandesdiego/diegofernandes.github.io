@@ -1,17 +1,21 @@
 body, html {
     height: 100%;
+    width: 100%;
   }
 
 .contact-ul {
     list-style-type: none;    
 }
 
-.vl-2 {
+.vl-2 {    
+    top: 0;
+    left: 25px;
     width: 4px;
-    height: 100vh;
-    margin-left: 10px;
+    height: 97%;
+    margin-top: 20px;
+    /* margin-left: 10px; */
     background-color: #ffc107;
-    display: block;
+    position: absolute;
 }
 
 .vl-2:before {
@@ -26,7 +30,18 @@ body, html {
 
 #about {
     font-size: small;
+    background-color: black;
 }  
+
+.about-content {
+    margin-left: 38px;
+    position: relative;
+}
+
+.about-content .about-title {
+ 
+}
+
 #about li {    
     display: list-item;
     margin-left: -36px;  
@@ -34,7 +49,7 @@ body, html {
 }
 
 #about li p {        
-    margin-top: -24px;
+    margin-top: -22px;
     margin-left: 36px;
 }
 
