@@ -29,18 +29,16 @@ body, html {
 }
 
 #about {
-    font-size: small;
+    font-size: small;    
     background-color: black;
 }  
 
 .about-content {
+    
     margin-left: 38px;
     position: relative;
 }
 
-.about-content .about-title {
- 
-}
 
 #about li {    
     display: list-item;
