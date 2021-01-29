@@ -1,66 +1,24 @@
 body, html {
     height: 100%;
     width: 100%;
+    background-color: #7d57c5;
   }
 
-.contact-ul {
-    list-style-type: none;    
+a {
+    color: #2b1773;
+}
+#left-content {
+    padding: 40px;
+    background-color: #e9e7f1;
+    border-radius: 10px;
 }
 
-.vl-2 {    
-    top: 0;
-    left: 25px;
-    width: 4px;
-    height: 97%;
-    margin-top: 20px;
-    /* margin-left: 10px; */
-    background-color: #ffc107;
-    position: absolute;
+#profile-image {
+    border:10px solid white;
 }
 
-.vl-2:before {
-    content: "";
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    margin-left: -8px;
-    background-color: #ffc107;
-    display: block;
+#right-content {    
+    padding: 30px;
+    background-color: #e9e7f1;
+    border-radius: 10px;
 }
-
-#about {
-    font-size: small;    
-    background-color: black;
-}  
-
-.about-content {
-    
-    margin-left: 38px;
-    position: relative;
-}
-
-
-#about li {    
-    display: list-item;
-    margin-left: -36px;  
-    list-style-image: url('../img/bullet.png');
-}
-
-#about li p {        
-    margin-top: -22px;
-    margin-left: 36px;
-}
-
-.header-name {
-    font-size: 80px;
-    font-weight: bold;
-}
-
-/* .list-item-title:before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: red;
-    display: inline-block;
-} */
