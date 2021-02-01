@@ -16,17 +16,25 @@ canvas {
 
 #left-content {
     padding: 40px;
-    background-color: #e9e7f1;
+    background-color: #e9e7f199;
     border-radius: 10px;
+    /* animate */
+    transition: 2s;
+    margin-top: -100px;
 }
 
 #profile-image {
-    border:10px solid white;
+    /* animate */
+    transition: 3s;
+    border:0px solid white;
 }
 
 #right-content {    
     padding: 30px;
-    background-color: #e9e7f1;
+    background-color: #e9e7f199;
     border-radius: 10px;
+    /* animate */
+    transition: 1s;
+    opacity: 0;
 }
 
